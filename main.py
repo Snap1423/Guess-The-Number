@@ -23,7 +23,7 @@ def guess_number():
         elif guess > secret_number:
             print("too high")
         else:
-            print("Congrats🎉🎉 you guessed in ", attempt,"attempts")
+            print("Congrats🎉🎉 you guessed in ", attempt, "attempts")
 
-
+# calling the function
 guess_number()
